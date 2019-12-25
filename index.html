@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+    <body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <header id="headers">
+        <div>
+            <div id="headerbutton">
+                    <button  class="buttons" data-toggle="modal" data-target="#signup">Sign Up</button>
+                    <button  class="buttons" data-toggle="modal" data-target="#signin">Sign In</button>
+            </div>   
+            <h1>ScriBBler</h1>
+        </div>
+    <div id="subheading">
+        Explore, Imagine, Creates
+    </div>      
+    </header>
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Get Started</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                                <div class="form-group">
+                                  <label for="name">Name</label>
+                                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name" required >
+                                </div>
+                                <div class="form-group">
+                                        <label for="username">Username</label>
+                                        <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter your username" required >
+                                </div>
+                                <div class="form-group">
+                                  <label for="password">Password</label>
+                                  <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                                </div>
+                                <div class="form-group">
+                                        <label for="confirm-password">Confirm Password</label>
+                                        <input type="password" class="form-control" id="confirm-password" placeholder="Re-enter your password" required>
+                                </div>
+                                <button type="submit" class="signup-modal">Sign Up</button>
+                        </form>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signin" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Welcome Back!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                            <form>
+                                    <div class="form-group">
+                                            <label for="username">Username</label>
+                                            <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter your username" required >
+                                          </div>
+                                    <div class="form-group">
+                                      <label for="password">Password</label>
+                                      <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                                    </div>
+                                    <button type="submit" class="signup-modal">Sign In</button>
+                                    <p id="footer">Not a member?<a href="#signup" data-toggle="modal"  data-dismiss="modal">Sign up</a></p>
+                            </form>
+                     </div>
+                </div>
+              </div> 
+              </div>
+              <div id="post">
+                  <button type="button" class="postbutton" onclick="location.href='./html/postslist.html'">All Posts</button>
+                  <button type="button" class="postbutton" data-toggle="modal" data-target=".bd-example-modal-xl">Create Post</button>
+              </div> 
+              <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                      <div class="modal-content">
+                            <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Pen Your Post</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                  <div class="modal-body">
+                                        <form>
+                                                <div class="form-group">
+                                                        <label for="username">Title</label>
+                                                        <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter title of your post" required >
+                                                      </div>
+                                                <div class="form-group">
+                                                  <label for="content">Contents</label>
+                                                  <textarea class="form-control" id="content" rows=15 placeholder="Enter the contents of your post"></textarea>
+                                                </div>
+                                                <div class="form-group" id="create">
+                                                <button type="submit" class="signup-modal" id="create-button">Create</button> 
+                                                </div>
+                                         </form>
+                                    </div>
+                                </div>
+                            </div>
+                  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                  <script src="./scripts/index.js"></script>
+    </body>
+</html>
