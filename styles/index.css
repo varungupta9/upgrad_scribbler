@@ -1,0 +1,38 @@
+html { 
+    background: url(/Users/varungupta/Downloads/Course+6+Project+Stub+-+Scribbler/images/background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+.postbutton
+  {
+    background-color:yellow;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px; 
+  }
+#post
+  {
+      position: fixed;
+      top: 50%;
+      right: 43%;
+  }
+#create-button
+{
+    padding: 10px 20px;
+    width: 150px;
+}
+#create
+{
+    position: relative;
+    left: 43%;
+}
+.form-control{
+  background: rgb(235, 234, 234);
+  border: 1px solid rgb(235, 234, 234);
+  border-radius: 0px;
+}
+.modal-header{
+  color: gray;
+  font-weight: lighter;
+}
