@@ -1,0 +1,52 @@
+#headers
+{
+    position: fixed;
+}
+
+.signup-modal {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+#footer
+{
+    text-align: center;
+}
+h1
+{
+    font-family: 'Montez', cursive;
+    color: blue;
+
+}
+#subheading
+{
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 2%;
+}
+.buttons
+{
+    background-color: blue;
+    border-style: groove;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    
+  }
+  #headerbutton
+  {
+    position: fixed;
+    right: 0px;
+  }
+ 
+  
