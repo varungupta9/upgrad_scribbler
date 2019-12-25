@@ -47,7 +47,7 @@ a{
 
 #footer1{
     position: absolute;
-    bottom:27%;
+    bottom:24%;
     left: 2.5%;
     text-align: left;
 }
@@ -67,7 +67,7 @@ a{
 }
 #comments{
     position: absolute;
-     bottom: 24%;
+     bottom: 20%;
     left: 2.5%;
     height: 2%;
     width: 39.5%;
@@ -76,7 +76,7 @@ a{
     position: absolute;
     width: 80px;
     height: 30px;
-    bottom: 19%;
+    bottom: 16%;
     left: 2.5%;
     color: white;
  font-size: smaller;
@@ -85,7 +85,7 @@ a{
 }
 #showComments{
     position: absolute;
-    bottom: 17%;
+    bottom: 13%;
     left: 2.5%;
     font-size: smaller;
 }
@@ -112,7 +112,7 @@ a{
 
 #toAdd { 
     position:absolute;                  
-    top:83%;                          
+    top:87%;                          
     left:0;  
     width:40%;   
     left:2.5%                     
