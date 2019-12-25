@@ -1,6 +1,13 @@
 html { 
-    background: url(/Users/varungupta/Downloads/Course+6+Project+Stub+-+Scribbler/images/background.jpg) no-repeat center center fixed; 
-    background-size: cover;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 !important;
+  background-size: 100% cover!important;
+  overflow:hidden;
+  display: block;
   }
 .postbutton
   {
