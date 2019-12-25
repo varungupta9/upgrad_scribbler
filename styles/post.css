@@ -1,0 +1,205 @@
+
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+#headers
+{
+    position: fixed;
+    top: 0px;
+}
+#subheading
+{
+color: indigo;   
+} 
+h3{
+    text-align: center;
+}
+#heading1{
+    padding: 30px;
+    height: 20px;
+}
+#heading1 div{
+    height: 30px;
+}
+#heading1 p{
+    text-align: justify;
+    font-size: smaller;
+
+}
+a{
+    font-family:monospace;
+    font-size: large;
+    font-weight: lighter;
+}
+#edit-save{
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 3%;
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+}
+[contenteditable]:focus{
+    outline: 3px solid pink;
+}
+
+#footer1{
+    position: absolute;
+    bottom:27%;
+    left: 2.5%;
+    text-align: left;
+}
+#footer1 button
+{
+ width: 70px;
+ height: 25px;
+ background-color: rgb(221, 50, 50);
+ color: white;
+ font-size: smaller;
+ text-align: center;
+}
+#footer1 div{
+    font-size: smaller;
+    font-family: monospace;
+
+}
+#comments{
+    position: absolute;
+     bottom: 24%;
+    left: 2.5%;
+    height: 2%;
+    width: 39.5%;
+}
+#addComments{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    bottom: 19%;
+    left: 2.5%;
+    color: white;
+ font-size: smaller;
+ text-align: center;
+ background-color: rgb(221, 50, 50);
+}
+#showComments{
+    position: absolute;
+    bottom: 17%;
+    left: 2.5%;
+    font-size: smaller;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:rgb(212, 208, 210);
+    align-items: flex-start;
+    height: 0%;
+    border: 2px solid rgb(212, 208, 210);
+}
+.container > div{
+    background-color: rgb(212, 208, 210);
+    width: 99%;
+    margin: 2px;
+
+}
+.container > div > div{
+    background-color:white;
+    color: black;
+    font-family: monospace;
+    font-size: small;
+}
+
+#toAdd { 
+    position:absolute;                  
+    top:83%;                          
+    left:0;  
+    width:40%;   
+    left:2.5%                     
+} 
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 20%;
+    display: block;
+    
+  }
+  
+  /* The Close Button */
+  .close, .close1 {
+    color: #aaaaaa;
+    float: right;
+    float: inline-end;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+    
+  }
+  
+  .close:hover,
+  .close:focus,
+  .close1:hover,
+  .close1:focus  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  .form-control{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-control:focus{
+    background-color: #ddd;
+  outline: none;
+
+  }
+  .modal-header {
+    border-bottom: 1px solid grey;
+    text-align: start;
+    width: 97%;
+    padding: 0px 0xp 5px 0px;
+  }
+  .modal-header h2{
+      margin: auto;
+      color: gray;
+      font-weight: lighter;
+  }
+  form{
+      margin-top: 1em;
+  }
+  .modal-footer {
+    padding: 2px 16px;
+  }
+
+  .pinkborder{
+      border: 1px solid pink;
+  }
+  .whiteborder{
+    border: 1px solid white;
+}
+  
